@@ -41,6 +41,7 @@
   - Landscape: the width is greater than or equal to the height
   - Portrait: the height is greater than or equal to the width
 * May be paired with `screen` media query to be sage
+* Note: This feature does not correspond to device orientation. Opening the soft keyboard on many devices in portrait orientation will cause the viewport to become wider than it is tall, thereby causing the browser to use landscape styles instead of portrait. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation)
 
 ```
 @media screen and (orientation: landscape) {
